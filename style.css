@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+main{
+    background-color: rgb(65, 61, 61);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.mainbox{
+    width: 500px;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 12px;
+    position: absolute;
+    padding: 20px 10px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.mainbox img{
+    width: 80%;
+    border-radius: 10px;
+}
+.mainbox h3{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-weight: 950;
+   }
+p{
+    text-align: center;
+    font-weight: 950;
+    margin: 12px;
+    width: 100%;
+}
